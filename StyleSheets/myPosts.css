@@ -1,0 +1,16 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.head a{
+    text-decoration: none;
+    color: gray;
+}
+
+.post-grid{
+    margin: 10px 85px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

@@ -1,0 +1,43 @@
+.post-title{
+    padding-top: 10px;
+}
+
+.profile-picture{
+    display: inline-block;
+}
+.profile-picture img{
+    width: 40px;
+    border-radius: 20px;
+}
+
+.username{
+    display: inline-block;
+    width: 100px;
+    padding-top: 8px;
+}
+
+.post-img{
+    width: 400px;
+    height: 300px;
+}
+.post-img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-stats{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.likes, .saved{
+    padding: 5px 10px;
+}
+
+.likes button, .saved button{
+    background-color: white;
+    border: none;
+}
+

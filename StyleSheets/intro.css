@@ -1,0 +1,47 @@
+.login-page{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.login-page-info{
+    width: 280px;
+    color: gray;
+}
+
+.alcon{
+    height: 30px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.alcon img{
+    padding-top: 2px;
+    height: 35px;
+}
+
+.alcon h4{
+    padding-left: 10px;
+}
+
+.login-page-info p{
+    padding-top: 5px;
+    line-height: 18px;
+}
+
+
+
+
+
+
+
+.login-details{
+    height: 500px;
+    width: 100px;
+    background-color: lightblue;
+}

@@ -1,0 +1,84 @@
+.myprofile{
+    width: 250px;
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+.myprofile-box{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.myprofile-orange{
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;    
+    background-image: linear-gradient(to right, rgb(245, 118, 80), rgb(241, 64, 33));
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+.myprofile-orange h4{
+    padding-left: 15px;
+}
+.myprofile-orange a{
+    padding-right: 40px;
+    color: white;
+}
+
+.myprofile-white{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    color: gray;
+    padding-top: 20px;
+}
+
+.profile-picture{
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 15px;
+}
+.profile-picture img{
+    width: 40px;
+    border-radius: 20px;
+}
+
+.my-details{
+    display: inline-block;
+    width: 100px;
+    line-height: 20px;
+}
+.my-details p{
+    margin:0;
+}
+
+.my-bio{
+    padding: 15px;
+    line-height: 18px;
+    margin-top: 20px;
+}
+.my-bio p{
+    margin: 2px;
+}
+
+.page-links{
+    padding: 20px 15px;
+}
+
+.to-my-post a, .to-saved-posts a, .pluspost a{
+    text-decoration: none;
+    color: gray;
+}
+
+.pluspost{
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-color: white;
+    color: gray;
+}

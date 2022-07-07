@@ -1,0 +1,19 @@
+.alcher{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.alcher img{
+    height: 30px;
+}
+
+.alcher h5{
+    padding: 10px;
+}
