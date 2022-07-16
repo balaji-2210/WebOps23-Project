@@ -1,7 +1,7 @@
 .createpost{
     width: 400px;
     margin-left: 100px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #input-img{
@@ -21,14 +21,14 @@ label{
 }
 
 .upload-img{
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 0px 20px;
     color: gray;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .upload-img p{
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 5px;
     margin:0;
 }
@@ -36,11 +36,18 @@ label{
 .caption{
     width: 360px;
     height: 60px;
-    margin-bottom: 25px;
     padding: 5px;
     border: 1px solid lightgray;
     border-radius: 7px;
     box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
+    margin-top: px;
+}
+
+.location{
+    border: none;
+    background-color: white;
+    margin-bottom: 15px;
+    font-weight: light;
 }
 
 .share{
@@ -49,6 +56,6 @@ label{
     margin-top: 20px;
     color: rgb(245, 118, 80);
     border: 1.5px solid rgb(245, 118, 80);
-    border-radius: 7px;
+    border-radius: 5px;
     box-shadow: inset 0 0 5px rgba(245, 118, 80, 0.2);
 }
